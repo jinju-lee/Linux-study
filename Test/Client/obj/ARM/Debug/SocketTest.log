@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 중간 디렉터리(C:\Users\Pearl2\source\repos\Blink5\SocketTest\obj\ARM\Debug\)에 다른 프로젝트(SocketTest.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.0.11'
+  Starting remote build
+  Compiling sources:
+  client.cpp
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(22,34): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(22,34): warning :    error_handling("socket() error");
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(22,34): warning :                                   ^
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(35,35): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(35,35): warning :    error_handling("connect() error");
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(35,35): warning :                                    ^
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(40,34): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(40,34): warning :    error_handling("accept() error");
+C:\Users\Pearl2\source\repos\Blink5\SocketTest\client.cpp(40,34): warning :                                   ^
+  Linking objects
+  SocketTest.vcxproj -> C:\Users\Pearl2\source\repos\Blink5\SocketTest\bin\ARM\Debug\Client.out

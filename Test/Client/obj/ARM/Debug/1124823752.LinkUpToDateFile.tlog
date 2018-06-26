@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/Client/bin/ARM/Debug/Client.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/Client/obj/ARM/Debug/client.o

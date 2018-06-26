@@ -1,0 +1,15 @@
+﻿  Cleaning remote project directory
+  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.0.11'
+  Starting remote build
+  Compiling sources:
+  client.cpp
+C:\Users\Pearl2\source\repos\Test\Client\client.cpp(23,34): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Test\Client\client.cpp(23,34): warning :    error_handling("socket() error");
+C:\Users\Pearl2\source\repos\Test\Client\client.cpp(23,34): warning :                                   ^
+C:\Users\Pearl2\source\repos\Test\Client\client.cpp(31,35): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Test\Client\client.cpp(31,35): warning :    error_handling("connect() error");
+C:\Users\Pearl2\source\repos\Test\Client\client.cpp(31,35): warning :                                    ^
+  Linking objects
+  Client.vcxproj -> C:\Users\Pearl2\source\repos\Test\Client\bin\ARM\Debug\Client.out

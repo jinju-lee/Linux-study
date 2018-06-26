@@ -1,0 +1,10 @@
+﻿  Cleaning remote project directory
+  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.0.11'
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  Linking objects
+  Blink5.vcxproj -> C:\Users\Pearl2\source\repos\Blink5\Blink5\bin\ARM\Debug\Blink5.out
+  Invoking 'gpio export 17 out', working directory: '/home/pi/projects/Blink5'

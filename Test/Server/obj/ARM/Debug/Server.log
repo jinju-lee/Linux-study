@@ -1,0 +1,21 @@
+﻿  Cleaning remote project directory
+  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.0.11'
+  Starting remote build
+  Compiling sources:
+  server.cpp
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(27,34): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(27,34): warning :    error_handling("socket() error");
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(27,34): warning :                                   ^
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(35,32): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(35,32): warning :    error_handling("bind() error");
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(35,32): warning :                                 ^
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(38,34): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(38,34): warning :    error_handling("listen() error");
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(38,34): warning :                                   ^
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(44,34): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(44,34): warning :    error_handling("accept() error");
+C:\Users\Pearl2\source\repos\Test\Server\server.cpp(44,34): warning :                                   ^
+  Linking objects
+  Server.vcxproj -> C:\Users\Pearl2\source\repos\Test\Server\bin\ARM\Debug\Server.out
